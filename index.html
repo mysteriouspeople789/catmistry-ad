@@ -3,12 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>CATmistry</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        @font-face {
+            font-family: "futura";
+            src: url("fonts/futura_round.ttf") format("truetype");
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f2d770">
+    <meta name="author" content="CATmistry">
+    <meta name="description" content="A Chemistry learning app designed for Upper Primary and Lower Secondary students, with interactive elements and fun games to enhance the learning process.">
+    <meta name="keywords" content="chemistry, chemistry learning app, cat mistry, catmistry">
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="prefetch" href="images/catmistry.png">
+    <link rel="prefetch" href="images/learn1.jpg">
+    <link rel="prefetch" href="images/learn2.jpg">
+    <link rel="prefetch" href="images/learn3.jpg">
+    <link rel="prefetch" href="images/practice.jpg">
+    <link rel="prefetch" href="images/play.jpg">
+    <link rel="prefetch" href="images/follow.jpg">
 </head>
 <body>
-    <h1>CATmistry</h1>
-    <h2>An chemistry learning app designed for upper primary and lower secondary students</h2>
+<div class="navbar">
+    <ul>
+        <li><a href="/">CATmistry</a></li>
+    </ul>
+</div>
+<div class="slideshow">
+    <<div class="slide">
+        <img src="images/catmistry.png" class="slide-pic" alt="learn">
+        <div class="main-text">CATmistry</div>
+        <div class="caption-text">Chemistry, Gamified</div>
+    </div>
+    <div class="slide">
+        <img src="images/learn1.jpg" class="slide-pic" alt="learn">
+        <div class="main-text">Learn</div>
+        <div class="caption-text">In a simple-to-understand but detailed manner</div>
+    </div>
+    <div class="slide">
+        <img src="images/learn2.jpg" class="slide-pic" alt="learn">
+        <div class="main-text">Learn</div>
+        <div class="caption-text">With interactive elements to enhance your understanding</div>
+    </div>
+    <div class="slide">
+        <img src="images/learn3.jpg" class="slide-pic" alt="learn">
+        <div class="main-text">Learn</div>
+        <div class="caption-text">Through specially designed graphs made by the CATmistry team</div>
+    </div>
+    <div class="slide">
+        <div class="main-text">Practice</div>
+        <div class="caption-text">Track your understanding and learn more effectively</div>
+        <img src="images/practice.jpg" class="slide-pic" alt="learn">
+    </div>
+    <div class="slide">
+        <img src="images/play.jpg" class="slide-pic" alt="learn">
+        <div class="main-text">Play</div>
+        <div class="caption-text">CATmistry's own games</div>
+    </div>
+    <div class="slide">
+        <img src="images/follow.jpg" class="slide-pic" alt="learn">
+        <div class="main-text">Follow</div>
+        <div class="caption-text">Your cat on its journey through earth</div>
+    </div>
     <button onclick="window.location.href='https://apps.apple.com/us/app/catmistry/id1545311327'">Download for iOS</button>
+</div>
+<!--    <div class="main">-->
+<!--        <h1>CATmistry</h1>-->
+<!--        <h2>Chemistry, Gamified</h2>-->
+<!--        <p>A chemistry learning app designed for upper primary and lower secondary students</p>-->
+<!--    </div>-->
+<script src="scripts/main.js" defer></script>
 </body>
 </html>
